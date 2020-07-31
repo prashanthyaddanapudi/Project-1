@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <html lang="en">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="column-header">
+                <h1 id="title">Mobile User Experience Survey</h1>
+                <p id="description">Thanks for using our latest mobile device. Please take time to answer below questions</p>
+            </div>
+
+
+
+            <form id="survey-form">
+
+
+
+
+
+                <div class="form-group">
+
+                    <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Have You previously used any other mobile device of our brand</option>
+        <option value="Yes">Yes</option>
+        <option value="No">no</option>
+      
+      </select>
+                </div>
+
+                <div class="form-group">
+                    <p>Experience Level</p>
+                    <select id="dropdown" name="experience" class="form-control" required>
+        <option disabled selected value>How many years of experience you have in using smart phones?</option>
+        <option value="junior">0-2 years experience</option>
+        <option value="mid">2+ years experience</option>
+        <option value="senior">4+ years of experience</option>
+        <option value="executive">8+ years of experience</option>
+        <option value="other">More than 8 years</option>
+      </select>
+                </div>
+
+                <div class="form-group">
+                    <p>Overall, how would you rate the mobile?</p>
+                    <label>
+        <input
+          name="user-rate"
+          value="excellent"
+          type="radio"
+          class="input-radio"
+          checked
+        />Excellent</label>
+                    <label>
+        <input
+          name="user-rate"
+          value="very-good"
+          type="radio"
+          class="input-radio"
+        />Very good</label>
+
+                    <label>
+        <input
+          name="user-rate"
+          value="good"
+          type="radio"
+          class="input-radio"
+        />Good</label>
+
+                    <label>
+        <input
+          name="user-rate"
+          value="fair"
+          type="radio"
+          class="input-radio"
+        />Fair</label>
+
+                    <label>
+        <input
+          name="user-rate"
+          value="poor"
+          type="radio"
+          class="input-radio"
+        />Poor</label>
+                </div>
+
+                <div class="form-group">
+                    <p>Are the features useful?</p>
+                    <label>
+        <input
+          name="materials-rate"
+          value="extremely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Extremely useful</label>
+                    <label>
+        <input
+          name="materials-rate"
+          value="very"
+          type="radio"
+          class="input-radio"
+        />Very useful</label>
+
+                    <label>
+        <input
+          name="materials-rate"
+          value="somewhat"
+          type="radio"
+          class="input-radio"
+        />Somewhat useful</label>
+
+                    <label>
+        <input
+          name="materials-rate"
+          value="not-so"
+          type="radio"
+          class="input-radio"
+        />Not so useful</label>
+
+                    <label>
+        <input
+          name="materials-rate"
+          value="no"
+          type="radio"
+          class="input-radio"
+        />No useful at all</label>
+                </div>
+
+                <div class="form-group">
+                    <p>Would you recommend the phone to a friend?</p>
+                    <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitely</label>
+                    <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Maybe</label>
+
+                    <label>
+        <input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Not sure</label>
+                </div>
+
+
+                <div class="form-group">
+
+                    <button id="submit" onclick="window.location.href='survey2.html'">
+                   <br>Next </div></div> </button>
+                    </button>
+
+            </form>
+            </div>
+
+
+
+</body>
+
+</html>
